@@ -1,8 +1,8 @@
 # Laravel helper for zmd.io
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/superlatif-io/zmd-laravel.svg?style=flat-square)](https://packagist.org/packages/superlatif-io/zmd-laravel)
-[![Total Downloads](https://img.shields.io/packagist/dt/superlatif-io/zmd-laravel.svg?style=flat-square)](https://packagist.org/packages/superlatif-io/zmd-laravel)
-![GitHub Actions](https://github.com/superlatif-io/zmd-laravel/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/superlatif/zmd-laravel.svg?style=flat-square)](https://packagist.org/packages/superlatif/zmd-laravel)
+[![Total Downloads](https://img.shields.io/packagist/dt/superlatif/zmd-laravel.svg?style=flat-square)](https://packagist.org/packages/superlatif/zmd-laravel)
+![GitHub Actions](https://github.com/superlatif/zmd-laravel/actions/workflows/main.yml/badge.svg)
 
 This package was made to facilitate the integration of the image manipulation service zmd.io on your Laravel application.
 
