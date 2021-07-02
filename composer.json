@@ -1,0 +1,54 @@
+{
+    "name": "superlatif/zmd-laravel",
+    "description": "Laravel helper for zmd.io",
+    "keywords": [
+        "superlatif",
+        "zmd-laravel"
+    ],
+    "homepage": "https://github.com/superlatif-io/zmd-laravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Superlatif",
+            "email": "info@superlatif.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Superlatif\\ZmdLaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Superlatif\\ZmdLaravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Superlatif\\ZmdLaravel\\ZmdLaravelServiceProvider"
+            ],
+            "aliases": {
+                "ZmdLaravel": "Superlatif\\ZmdLaravel\\ZmdLaravelFacade"
+            }
+        }
+    }
+}
