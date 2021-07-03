@@ -16,16 +16,23 @@ composer require superlatif-io/zmd-laravel
 
 ## Usage
 
-```php
 Set your domain key in your .env file, using:
-
+```php
 ZMD_DOMAIN_KEY=your_domain_key
 ```
+Note: Your domain key can be found in your zmd.io account [create a zmd domain key](https://app.zmd.io/domains)
 
-```php
+
 Initialize the ZMD script in your blade template, just before the </body> end tag.
-
-@zmdInit
+```html
+<html>
+    <body>
+    
+        ...
+    
+        @zmdInit
+    </body>
+</html>
 ```
 
 ### Changelog
